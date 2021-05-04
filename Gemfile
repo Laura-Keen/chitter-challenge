@@ -11,4 +11,5 @@ end
 group :development do
   gem 'sinatra'
   gem 'sinatra-contrib'
+  gem 'pg'
 end
