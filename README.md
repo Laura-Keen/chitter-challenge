@@ -6,7 +6,7 @@ Chitter Challenge
 ____
 This is my version of the chitter challenge given by Makers Academy.
 
-To view the original instructions and requirements given by Makers, click [here](#original-insstructions).
+To view the original instructions and requirements given by Makers, click [here](#original-instructions).
 
 ## Plan
 ____
