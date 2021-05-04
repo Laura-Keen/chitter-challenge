@@ -3,15 +3,24 @@ Chitter Challenge
 
 [Intro](#introduction) | [Plan](#plan) | [How To Use](#how-to-use) | [Original Instructions](#original-insructions)
 ## Introduction
+____
 This is my version of the chitter challenge given by Makers Academy.
 
-To view the original instructions and requirements given by Makers, click [here](original-insstructions).
+To view the original instructions and requirements given by Makers, click [here](#original-insstructions).
 
 ## Plan
+____
 
 ## How To Use
+____
+1) Clone this repo to your machine.
 
-## Original Instructions
+2) In your command line:
+```
+bundle install
+```
+
+# Original Instructions
 Below are the original instructions and requirements givenby Makers Academy:
 * Feel free to use Google, your notes, books, etc. but work on your own
 * If you refer to the solution of another coach or student, please put a link to that in your README
