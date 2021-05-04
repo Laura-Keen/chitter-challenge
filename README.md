@@ -15,6 +15,15 @@ Feature: View the home page
 Scenario: User can visit Chitter homepage
 Expectation: See 'Welcome To Chitter' on homepage
 
+##### User Story 1:
+As a Maker
+So that I can let people know what I am doing  
+I want to post a message (peep) to chitter
+
+Feature: Post a peep  
+Scenario: User can post a peep to chitter  
+Expectation: See the submitted peep on page  
+
 ## How To Use
 ____
 1) Clone this repo to your machine.
@@ -23,6 +32,24 @@ ____
 ```
 bundle install
 ```
+3) Install PostgreSQL - you can do this using homebrew:
+```
+brew install postgresql
+```
+4) Allow PostgreSQL to run in the background:
+```
+brew services start postgresql
+```
+5) Connect to psql
+6) Create database using psql command:
+```
+CREATE DATABASE chitter
+```
+7) Connect the database using:
+```
+\c chitter
+```
+8) Run the query saved in the file 01_create_chitter_table.sql
 
 # Original Instructions
 Below are the original instructions and requirements givenby Makers Academy:
