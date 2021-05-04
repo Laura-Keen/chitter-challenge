@@ -10,14 +10,5 @@ class Chitter < Sinatra::Base
     erb :index
   end
 
-  get '/bookmarks/new' do
-    erb :"bookmarks/new"
-  end
-
-  post '/chitter' do
-    p params
-    p "Cheet Submitted!"
-  end
-
   run! if app_file == $0
 end
