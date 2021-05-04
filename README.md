@@ -1,6 +1,18 @@
 Chitter Challenge
 =================
 
+[Intro](#introduction) | [Plan](#plan) | [How To Use](#how-to-use) | [Original Instructions](#original-insructions)
+## Introduction
+This is my version of the chitter challenge given by Makers Academy.
+
+To view the original instructions and requirements given by Makers, click [here](original-insstructions).
+
+## Plan
+
+## How To Use
+
+## Original Instructions
+Below are the original instructions and requirements givenby Makers Academy:
 * Feel free to use Google, your notes, books, etc. but work on your own
 * If you refer to the solution of another coach or student, please put a link to that in your README
 * If you have a partial solution, **still check in a partial solution**
@@ -133,3 +145,5 @@ SimpleCov.start
 ```
 
 You can see your test coverage when you run your tests. If you want this in a graphical form, uncomment the `HTMLFormatter` line and see what happens!
+
+[Back to top](#chitter-challenge)
