@@ -15,6 +15,14 @@ Feature: View the home page
 Scenario: User can visit Chitter homepage
 Expectation: See 'Welcome To Chitter' on homepage
 
+##### Test Database:
+Feature: View all peeps
+Scenario: User can view all peeps
+Expectation: See all of the tweets (manually input by me for now) on the homepage
+
+##### Test Database:
+Set up the testing environment and test the database
+
 ##### User Story 1:
 As a Maker
 So that I can let people know what I am doing  
