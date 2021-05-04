@@ -1,7 +1,7 @@
 Chitter Challenge
 =================
 
-[Intro](#introduction) | [Plan](#plan) | [How To Use](#how-to-use) | [Original Instructions](#original-insructions)
+[Intro](#introduction) | [Plan](#plan) | [How To Use](#how-to-use) | [Original Instructions](#original-instructions)
 ## Introduction
 ____
 This is my version of the chitter challenge given by Makers Academy.
@@ -10,6 +10,10 @@ To view the original instructions and requirements given by Makers, click [here]
 
 ## Plan
 ____
+##### Initial Test:
+Feature: View the home page
+Scenario: User can visit Chitter homepage
+Expectation: See 'Welcome To Chitter' on homepage
 
 ## How To Use
 ____
