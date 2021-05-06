@@ -10,5 +10,9 @@ class Chitter < Sinatra::Base
     erb :index
   end
 
+  get '/peeps' do
+    peeps = ["My first peep!"]
+  end
+
   run! if app_file == $0
 end
