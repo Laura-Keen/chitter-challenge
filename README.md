@@ -38,6 +38,7 @@ I want to post a message (peep) to chitter*
 
 **Expectation**: See the submitted peep on page  
 
+
 ## How To Use
 ____
 1) Clone this repo to your machine.
@@ -66,8 +67,11 @@ CREATE DATABASE chitter
 8) Run the query saved in the file 01_create_chitter_table.sql
 9) Repeat from step 6 to create a test database (include test in the name of the data base)
 
+
+
 # Original Instructions
 Below are the original instructions and requirements givenby Makers Academy:
+
 * Feel free to use Google, your notes, books, etc. but work on your own
 * If you refer to the solution of another coach or student, please put a link to that in your README
 * If you have a partial solution, **still check in a partial solution**
