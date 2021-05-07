@@ -64,7 +64,7 @@ CREATE DATABASE chitter
 \c chitter
 ```
 8) Run the query saved in the file 01_create_chitter_table.sql
-9) Repeat from step 6 to create a test database 
+9) Repeat from step 6 to create a test database (include test in the name of the data base)
 
 # Original Instructions
 Below are the original instructions and requirements givenby Makers Academy:
