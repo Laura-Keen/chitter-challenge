@@ -12,4 +12,12 @@ describe Peep do
       expect(peeps).to include("My first peep!")
     end
   end
+
+  describe '.create' do 
+    it 'creates a new peep' do
+      Peep.create(message: 'Hey Chitter :)')
+
+      expect(Peep.all).to include("Hey Chitter :)")
+    end
+  end
 end
