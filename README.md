@@ -11,33 +11,35 @@ To view the original instructions and requirements given by Makers, click [here]
 ## Plan
 ____
 ### Initial Test:
+```
 **Feature**: View the home page
 
 **Scenario**: User can visit Chitter homepage
 
 **Expectation**: See 'Welcome To Chitter' on homepage
-
+```
 ### Test Viewing Peeps:
+```
 **Feature**: View all peeps
 
 **Scenario**: User can view all peeps
 
 **Expectation**: See all of the tweets (manually input by me for now) on the homepage
-
+```
 ### Test Database:
-Set up the testing environment and test the database
+`Set up the testing environment and test the database`
 
 ### User Story 1:
 *As a Maker 
 So that I can let people know what I am doing  
 I want to post a message (peep) to chitter*
-
+```
 **Feature**: Post a peep
 
 **Scenario**: User can post a peep to chitter  
 
 **Expectation**: See the submitted peep on page  
-
+```
 
 ## How To Use
 ____
