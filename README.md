@@ -41,6 +41,18 @@ Scenario: User can post a peep to chitter
 Expectation: See the submitted peep on page  
 ```
 
+### User Story 2:
+*As a maker
+So that I can see what others are saying  
+I want to see all peeps in reverse chronological order*
+```
+Feature: Peeps are in order
+
+Scenario: User can see peeps in reverse chronological order 
+
+Expectation: See the latest peep first
+```
+
 ## How To Use
 ____
 1) Clone this repo to your machine.
