@@ -1,13 +1,15 @@
-require_relative './setup_test_database'
-
+# require './setup_test_database'
+require 'pg'
 ENV['ENVIRONMENT'] = 'test'
 ENV['RACK_ENV'] = 'test'
 
-# RSpec.configure do |config|
-#   config.before(:each) do 
-#     setup_test_database
-#   end
-# end
+RSpec.configure do |config|
+  config.before(:each) do 
+  p "Setting up the test database..."
+  connection = PG.connect(dbname: 'chitter_test')
+  connection.exec("TRUNCATE peeps;")
+  end
+end
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 

@@ -53,7 +53,7 @@ Scenario: User can see peeps in reverse chronological order
 Expectation: See the latest peep first
 ```
 
-### User Story 2:
+### User Story 3:
 *As a maker
 So that I can remove my peeps from Chitter 
 I want to delete a peep*
@@ -64,6 +64,11 @@ Scenario: User can delete a peep
 
 Expectation: Be able to delete a peep
 ```
+
+### User Story 4:
+*As a maker
+So that I can see when a peep was posted
+I want peeps to have a timestamp*
 
 ## How To Use
 ____
