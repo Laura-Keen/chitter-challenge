@@ -7,7 +7,7 @@ RSpec.configure do |config|
   config.before(:each) do 
   p "Setting up the test database..."
   connection = PG.connect(dbname: 'chitter_test')
-  connection.exec("TRUNCATE peeps;")
+  connection.exec("TRUNCATE peeps, users;")
   end
 end
 
