@@ -9,8 +9,6 @@ class Peep
     end
 
     result = connection.exec("SELECT * FROM peeps;")
-    print "The result is"
-    print result
     result.map do |peep| 
       p peep
       peep
@@ -27,4 +25,15 @@ class Peep
 
     connection.exec("INSERT INTO peeps (message) VALUES('#{message}');")
   end
+
+  def self.delete(id:)
+    if ENV['ENVIRONMENT'] == 'test'
+      connection = PG.connect(dbname: 'chitter_test')
+    else
+      connection = PG.connect(dbname: 'chitter')
+    end
+
+    connection.exec("DELETE FROM peeps WHERE id = #{id}")
+  end
+
 end

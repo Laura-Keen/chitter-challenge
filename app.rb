@@ -7,6 +7,8 @@ class Chitter < Sinatra::Base
     register Sinatra::Reloader
   end
 
+  enable :sessions, :method_override
+
   get '/' do
     erb :index
   end
@@ -24,5 +26,11 @@ class Chitter < Sinatra::Base
     Peep.create(message: params[:message])
     redirect '/peeps'
   end
+
+  delete '/peeps/:id' do
+    Peep.delete(id: params[:id])
+    redirect '/peeps'
+  end
+
   run! if app_file == $0
 end
