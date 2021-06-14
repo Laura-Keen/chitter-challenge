@@ -62,13 +62,29 @@ Feature: Delete a peep
 
 Scenario: User can delete a peep
 
-Expectation: Be able to delete a peep
+Expectation: When the user presses delete, the peep should be gone from the database and the website
 ```
 
 ### User Story 4:
 *As a maker
 So that I can see when a peep was posted
 I want peeps to have a timestamp*
+
+### User Story 5:
+*As a Maker
+So that I can post messages on Chitter as me
+I want to sign up for Chitter*
+
+- Create a users table in both data bases
+- Write a registration feature test:
+```
+Feature: User sign up
+
+Scenario: User can sign up to Chitter
+
+Expectation: Once the user has filled in details and submitted them, Chitter should welcome that user
+```
+- Make registration form and connect to route structure
 
 ## How To Use
 ____
